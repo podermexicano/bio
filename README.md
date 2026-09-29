@@ -34,3 +34,11 @@ All internal links are relative, so the site works both at a GitHub user domain 
 Upload all files in this folder to the host's public web directory. Keep the files together so the links to `styles.css` and `script.js` continue to work.
 
 The site uses Google Fonts when online and falls back to system sans-serif fonts if they are unavailable.
+
+## Photography credits
+
+- Homepage portrait supplied by Jose Aparicio.
+- Science portrait from Jose Aparicio's ResearchGate profile.
+- Ceramics table and exhibition display images from Jovial Jar.
+
+The ResearchGate and Jovial Jar images are loaded from their original published sources; an internet connection is required for them to display. Source links are included in the visible captions on the site.
