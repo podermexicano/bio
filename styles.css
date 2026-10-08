@@ -48,9 +48,7 @@ h1 em { color: var(--coral); font-style: normal; }
 .button-light { background: transparent; }
 
 .hero-photo { position: relative; min-height: 500px; margin: 0; overflow: hidden; background: var(--mint); border: 1px solid var(--ink); }
-.hero-photo::before { content: ""; position: absolute; z-index: 1; inset: 18px; border: 1px solid rgba(255,255,255,.72); pointer-events: none; }
 .hero-photo img { width: 100%; height: 500px; display: block; object-fit: cover; object-position: 51% center; filter: saturate(.9) contrast(1.03); }
-.hero-photo figcaption { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; padding: 15px 22px; display: flex; justify-content: space-between; background: var(--ink); color: var(--white); font: 600 10px/1.2 "Manrope"; letter-spacing: .13em; text-transform: uppercase; }
 
 .dual-intro { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .path-card { min-height: 390px; padding: 38px; display: flex; flex-direction: column; justify-content: space-between; text-decoration: none; transition: background .25s; }
