@@ -33,3 +33,21 @@ if ('IntersectionObserver' in window) {
 } else {
   revealItems.forEach(item => item.classList.add('visible'));
 }
+
+const navLinks = [...document.querySelectorAll('.site-nav a[href^="#"]')];
+const observedSections = navLinks
+  .map(link => document.querySelector(link.getAttribute('href')))
+  .filter(Boolean);
+
+if ('IntersectionObserver' in window && observedSections.length) {
+  const navObserver = new IntersectionObserver(entries => {
+    const visible = entries
+      .filter(entry => entry.isIntersecting)
+      .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+    if (!visible) return;
+    navLinks.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === `#${visible.target.id}`);
+    });
+  }, { rootMargin: '-25% 0px -60% 0px', threshold: [0, .25, .6] });
+  observedSections.forEach(section => navObserver.observe(section));
+}

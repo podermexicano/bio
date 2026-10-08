@@ -1,12 +1,12 @@
 # Jose Aparicio — Personal Website
 
-A responsive three-page static portfolio for Jose Aparicio.
+A responsive single-page static portfolio for Jose Aparicio.
 
-## Pages
+## Site structure
 
-- `index.html` — home and profile links
-- `science.html` — scientific work and publication profiles
-- `art.html` — Jovial Jar art practice and links
+- `index.html` — the complete website, with Home, Science, Art, and Connect sections
+- `styles.css` — responsive design and visual styling
+- `script.js` — mobile navigation, scroll-aware navigation, and reveal effects
 
 ## Preview locally
 
