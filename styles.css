@@ -23,7 +23,7 @@ a { color: inherit; }
 .site-header { max-width: var(--max); margin: 0 auto; min-height: 88px; padding: 0 28px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; background: rgba(248,244,233,.94); backdrop-filter: blur(14px); }
 .brand { display: inline-flex; align-items: center; gap: 11px; font: 600 16px/1 "Manrope", sans-serif; text-decoration: none; letter-spacing: -.02em; }
 .brand-mark { width: 17px; height: 17px; border: 2px solid currentColor; border-radius: 50%; position: relative; }
-.brand-mark::after { content: ""; position: absolute; width: 7px; height: 7px; top: 3px; left: 3px; background: var(--coral); border-radius: 50%; }
+.brand-mark::after { content: ""; position: absolute; width: 7px; height: 7px; top: 3px; left: 3px; background: var(--green); border-radius: 50%; }
 .site-nav { display: flex; align-items: center; gap: 8px; }
 .site-nav a { padding: 10px 13px; color: var(--muted); font-size: 14px; text-decoration: none; border-radius: 100px; transition: color .2s, background .2s; }
 .site-nav a:hover, .site-nav a.active { color: var(--ink); background: rgba(255,255,255,.58); }
